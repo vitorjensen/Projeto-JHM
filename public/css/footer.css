@@ -1,0 +1,63 @@
+:root{
+    --color-blue1: #052149;
+    --color-blue2: #093472;
+    --color-blue3: #1FB8FF;
+    --color-white: #fff;
+}
+
+.footer-grid{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.footer-grid-img img{
+    width: 250px;
+    justify-content: center;
+}
+
+.footer-grid-onde{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+}
+.footer-grid-onde h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+.footer-grid-onde p{
+    margin-bottom: 20px;
+}
+.footer-grid-onde a{
+    color: #E29500;
+}
+
+.direitos{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: var(--color-white);
+    padding: 25px;
+    text-align: center;
+}
+.direitos a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.direitos a:hover{
+    text-decoration: underline;
+}
+footer{
+    animation: expandOpacity 2s ease-in-out forwards;
+}
+
+@keyframes expandOpacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

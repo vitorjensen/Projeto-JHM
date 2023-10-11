@@ -1,0 +1,92 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(footer.css);
+
+:root{
+    --color-blue1: #052149;
+    --color-blue2: #093472;
+    --color-blue3: #1FB8FF;
+    --color-white: #fff;
+}
+
+
+p{
+    font-size: 18px;
+}
+ul{
+     margin-left: 25px;
+    }
+li{
+     font-size: 18px;
+}
+ 
+.meu-hr{
+     display: flex;
+     align-items: center;
+  }
+.meu-hr hr{
+     background: var(--color-blue3);
+    flex: 1;
+    margin-left: 10px;
+    height: 3px;
+    border: none;
+}
+
+.equipamentos-manutencao{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 55px;
+    margin-top: 100px;
+}
+
+
+.equipamentos{
+    width: 50%;
+    line-height: 24px;
+}
+.equipamentos h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.manutencao{
+    width: 50%;
+    line-height: 24px;
+}
+.manutencao h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.manutencao img{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.section-politica-visao{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 60px 0px 60px 0px;
+}
+.politica-visao{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.img-rebobinador img{
+    height: 400px;
+    border-radius: 20px;
+}
+
+.txt-politica-visao{
+    width: 40%;
+}
+#visao{
+    margin-top: 50px;
+}
+
