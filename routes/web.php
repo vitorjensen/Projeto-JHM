@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\autenticacaoController;
+use App\Http\Controllers\contatoController;
 use App\Http\Controllers\qualidadeController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
@@ -28,13 +29,18 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ]);
+
+//Rotas externas
 Route::get('/', function () {
     return view('welcome');
 });
 route::get('qualidade',[qualidadeController::class, 'index']);
+route::get('contato', [contatoController::class, 'index']);
+//Fim das Rotas externas
 
 
-// Auth::routes(['verify' => true]);
+
+Auth::routes(['verify' => true]);
 //Rotas de Autenticação
 
 route::get('minhaconta',[autenticacaoController::class, 'index'])->name('route.minhaconta');
