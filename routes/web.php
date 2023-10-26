@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Auth;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -33,7 +34,7 @@ Route::get('/', function () {
 route::get('qualidade',[qualidadeController::class, 'index']);
 
 
-
+// Auth::routes(['verify' => true]);
 //Rotas de Autenticação
 
 route::get('minhaconta',[autenticacaoController::class, 'index'])->name('route.minhaconta');
