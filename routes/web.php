@@ -34,14 +34,16 @@ Route::middleware([
 Route::get('/', function () {
     return view('welcome');
 });
-route::get('qualidade',[qualidadeController::class, 'index']);
-route::get('contato', [contatoController::class, 'index']);
+route::get('qualidades',[qualidadeController::class, 'index'])->name('route.qualidade');
+route::get('contato', [contatoController::class, 'index'])->name('route.contato');
+route::post('contato', [contatoController::class, 'store'])->name('route.contact.store');
 //Fim das Rotas externas
 
 
 
-Auth::routes(['verify' => true]);
+
 //Rotas de Autenticação
+// Auth::routes(['verify' => true]);
 
 route::get('minhaconta',[autenticacaoController::class, 'index'])->name('route.minhaconta');
 route::post('minhaconta',[autenticacaoController::class, 'store'])->name('route.store');

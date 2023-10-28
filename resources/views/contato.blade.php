@@ -4,15 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/jhm-icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/iniciar-sessao.css">
-    <link rel="stylesheet" href="css/footer.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-    <title>JHM | CONTATO</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <title>JHM | QUALIDADES</title>
 </head>
 <body>
     <header>
@@ -24,9 +17,9 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">QUALIDADES</a></li>
+                    <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+                    <li class="nav-item" id="ativo"><a href="contato.html" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
@@ -50,7 +43,7 @@
             
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">QUALIDADES</a></li>
+                <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
             </ul>
@@ -60,92 +53,56 @@
         <div class="secao-linha-branca">
             <h1>CONTATO</h1>
             <hr>
-            <p>Fale com a nossa empresa!</p>
+            <p>Fale com a JHM Motores</p>
         </div>
         <div class="secao-linha-azul">
             <hr>
         </div>
     </section>
     <main>
-        <div class="main-all">
-            <div class="main-all-titulo">
-                <h1>Envie-nos um Email preenchendo o formulário!</h1>
+        <div id="imagem-div">
+            <img src="img/desenhocontato.png" alt="Desenho Contato">
+        </div>
+        <div class="container">
+            <div id="container-titulo">
+                <h2>Preencha o formulário abaixo e entre em contato conosco.</h2>
             </div>
-            @error('error')
-            <div class="invalid-feedback" style="color: red;">
-
-            {{$message}}
-            </div>
-            <br>
-                   @enderror 
-            <div class="main-all-form">
-                <!-- <h2>Inicie sessão na JHM</h2> -->
-                <form action="{{route('route.login')}}" method="POST" autocomplete="on">
-                    @csrf
-
-                @error('name')
-                <div class="invalid-feedback" style="color: red;">
-
-                {{$message}}
-                </div>
-                <br>
-                @enderror
-                <p class="form-group">
-                        <input type="name" name="name" id="name" value="{{ old('name') }}" class="form-input" required>
-                        <label for="inome" class="form-label">Nome completo:</label>
-                   
-                    </p>  
-                @error('email')
-                <div class="invalid-feedback" style="color: red;">
-
-                {{$message}}
-                </div>
-                <br>
-                @enderror
+            <div id="container-inputs">
+                <form action="{{route('route.contact.store')}}" method="post">
+                @csrf
                     <p class="form-group">
-                        <input type="text" name="email" id="email" value="{{ old('email') }}" class="form-input" required>
+                        <label for="iname" class="form-label">Seu nome:</label>
+                        <input type="text" name="name" id="name" class="form-input">
+                    </p>
+                    @error('name')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
+                    <p class="form-group">
                         <label for="iemail" class="form-label">E-mail:</label>
-                      
+                        <input type="email" name="email" id="email" class="form-input" >
                     </p>
-                @error('password')
-                <div class="invalid-feedback" style="color: red;">
-
-                {{$message}}
-                </div>
-                <br>
-                @enderror
+                    @error('email')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
                     <p class="form-group">
-                        <input type="password" name="password" id="password" class="form-input" required>
-                        <label for="isenha" class="form-label">Senha:</label>
+                        <label for="iassunto" class="form-label">Assunto:</label>
+                        <input type="text" name="subject" id="subject" class="form-input" >
                     </p>
-                 <input type="checkbox" name="remember"> Lembre-me
+                    <p class="form-group">
+                        <label for="imsg" class="form-label">Sua mensagem:</label>
+                        <textarea name="message" id="message" cols="30" rows="10" class="form-input"></textarea>
+                    </p>
             </div>
-            <br>
-            <div class="main-all-button" class="container">
-                <a href="{{route('route.minhaconta')}}"><input type="button" value="Não tenho conta JHM"></a>
-                <input type="submit" value="Entrar">
+            <div id="container-buttom">
+                <a href="#"><input type="submit" value="Enviar"></a>
             </div>
             </form>
-    <script>
-        @if(Session::has('error'))
-
-        toastr.error("{{ session('error')}}")
-        @endif
-
-</script>
-<script>
-        @if(Session::has('status'))
-
-        toastr.success("{{ session('status')}}")
-        @elseif(Session::has('email'))
-
-        toastr.error("{{ session('email')}}")
-        @endif
-
-</script>
-            <div id="esqueci-senha">
-                <a href="{{route('password.request')}}">Esqueci minha senha</a>
-            </div>
         </div>
     </main>
     <footer>
@@ -165,9 +122,5 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

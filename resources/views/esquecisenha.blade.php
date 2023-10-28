@@ -23,7 +23,7 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">QUALIDADES</a></li>
+                    <li class="nav-item"><a href="{{route('route.qualidade')}}" class="nav-link">QUALIDADES</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
                 </ul>

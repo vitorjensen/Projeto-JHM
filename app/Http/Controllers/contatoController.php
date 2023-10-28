@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Http\Requests\contactUserFormRequest;
 use Illuminate\Http\Request;
 
 class contatoController extends Controller
@@ -10,5 +10,11 @@ class contatoController extends Controller
     {
 
         return view('contato');
+    }
+
+    public function store()
+    {
+
+       
     }
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/jhm-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/qualidade.css">
-    <title>JHM | MINHA CONTA</title>
+    <title>JHM | QUALIDADES</title>
 </head>
 <body>
     <header>
@@ -17,9 +17,9 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">QUALIDADES</a></li>
+                    <li class="nav-item" id="ativo"><a href="#" class="nav-link">QUALIDADES</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
@@ -43,7 +43,7 @@
             
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">QUALIDADES</a></li>
+                <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
             </ul>
@@ -51,7 +51,7 @@
     </header>
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>QUALIDADE</h1>
+            <h1>QUALIDADES</h1>
             <hr>
             <p>Veja a qualidade de serviço da JHM</p>
         </div>
@@ -121,6 +121,33 @@
                         A Visão da JHM é ser uma empresa líder no fornecimento de serviços especializados e soluções em manutenção de motores elétricos.
                         Transparência nos negócios, parcerias de longo prazo, custo x benefícios x segurança dos serviços prestados aos nossos clientes.
                     </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-certificacao">
+            <div class="certificacao-titulo">
+                <h2>Certificações</h2>
+            </div>
+            <div class="certificacao-grid">
+                <div class="certificacao-pdf-g">
+                    <a href="docs/JHM_Certificado-EX_DNV-13OS0072_VAL.-2025-06-04-1.pdf" target="_blank">
+                        <img src="docs/certificado1g.png" alt="Certificado1">
+                    </a>
+                </div>
+                <div class="certificacao-pdf-g">
+                    <a href="docs/JHM_Certificado-ISO9001-2015_DNV-117504-2012-AQ-BRA-INMETRO_VAL.-2024-06-13.pdf" target="_blank">
+                        <img src="docs/certificado2g.png" alt="Certificado2">
+                    </a>
+                </div>
+                <div class="certificacao-pdf-p">
+                    <a href="docs/JHM_Credencial-Assistente-Tecnico-Autorizado-5-Estrelas-Certificado_WEG-012_VAL.-2024-06-13-1.pdf" target="_blank">
+                        <img src="docs/certificado3p.png" alt="Certificado3">
+                    </a>
+                </div>
+                <div class="certificacao-pdf-p">
+                    <a href="docs/JHM_Credencial-Assistente-Tecnico-Autorizado-Atmosferas-Explosivas_WEG-022_VAL.-2022-06-04-1.pdf" target="_blank">
+                        <img src="docs/certificado4p.png" alt="Certificado4">
+                    </a>
                 </div>
             </div>
         </section>
