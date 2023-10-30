@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/jhm-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/contato.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <title>JHM | QUALIDADES</title>
 </head>
 <body>
@@ -17,7 +20,7 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                    <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
+                    <li class="nav-item"><a href="{{route('route.qualidade')}}" class="nav-link">QUALIDADES</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
                     <li class="nav-item" id="ativo"><a href="contato.html" class="nav-link">CONTATO</a></li>
                 </ul>
@@ -53,7 +56,7 @@
         <div class="secao-linha-branca">
             <h1>CONTATO</h1>
             <hr>
-            <p>Fale com a JHM Motores</p>
+            <p>Fale com a JHM Motores!</p>
         </div>
         <div class="secao-linha-azul">
             <hr>
@@ -94,11 +97,30 @@
                         <label for="iassunto" class="form-label">Assunto:</label>
                         <input type="text" name="subject" id="subject" class="form-input" >
                     </p>
+                     @error('subject')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
                     <p class="form-group">
                         <label for="imsg" class="form-label">Sua mensagem:</label>
                         <textarea name="message" id="message" cols="30" rows="10" class="form-input"></textarea>
                     </p>
+                     @error('message')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
             </div>
+            <script>
+        @if(Session::has('success'))
+
+        toastr.success("{{ session('success')}}")
+        @endif
+
+</script>
             <div id="container-buttom">
                 <a href="#"><input type="submit" value="Enviar"></a>
             </div>

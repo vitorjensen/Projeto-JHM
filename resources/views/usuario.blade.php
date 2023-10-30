@@ -43,9 +43,9 @@
             <div class="nav-list">
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">QUALIDADES</a></li>
+                    <li class="nav-item"><a href="{{route('route.qualidade')}}" class="nav-link">QUALIDADES</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+                    <li class="nav-item"><a href="{{route('route.contato')}}" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
 
@@ -113,9 +113,10 @@
         <div class="main-all-titulo">
         <i class="fa fa-check-circle" style="font-size:48px;color:lightgreen;"></i> 
             </div>
-            
+            <a href="logout">Sair da conta</a>
         </div>
         <br>
+        
     </main>
     <footer>
         <section class="footer-grid">
