@@ -43,7 +43,7 @@ class contatoController extends Controller
 
 
         ]));
-        return redirect()->route('route.contato')->with('success', 'Email enviado para nossa empresa com sucesso!');
+        return redirect()->route('route.contato')->with('success', 'Email enviado para empresa com sucesso!');
 
        
     }
