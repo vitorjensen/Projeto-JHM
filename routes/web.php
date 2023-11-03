@@ -141,6 +141,4 @@ Route::post('/email/verification-notification', function (Request $request) {
 
 //Fim
 
-
-
 //Fim das rotas de autenticação

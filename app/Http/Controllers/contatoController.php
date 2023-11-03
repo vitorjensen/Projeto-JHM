@@ -34,7 +34,7 @@ class contatoController extends Controller
 
         ]);
         
-        Mail::to('JHMmotores@gmail.com', 'JHMmotores')->send(new Contact([
+        Mail::to('vitorjensen6@gmail.com', 'Vitor Jensen')->send(new Contact([
             
             'fromName'=> $request->input('name'),
             'fromEmail'=> $request->input('email'),
