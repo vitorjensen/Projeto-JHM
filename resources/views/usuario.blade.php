@@ -64,7 +64,7 @@
              @if(auth()->check())
             <div class="dropdown-content">
             <h5 class="dropdown-item dropdown-footer">
-          <a href="logout" class="dropdown-item dropdown-footer">
+          <a href="#" class="dropdown-item dropdown-footer">
           <i class="fa fa-gear" style="font-size:18px"></i> {{ __('Perfil') }}</a>
           </a>
           </h5>
