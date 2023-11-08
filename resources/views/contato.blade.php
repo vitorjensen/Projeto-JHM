@@ -115,12 +115,12 @@
                         @enderror
             </div>
             <script>
-        @if(Session::has('success'))
+            @if(Session::has('success'))
 
-        toastr.success("{{ session('success')}}")
-        @endif
+            toastr.success("{{ session('success')}}")
+            @endif
 
-</script>
+            </script>
             <div id="container-buttom">
                 <a href="#"><input type="submit" value="Enviar"></a>
             </div>
