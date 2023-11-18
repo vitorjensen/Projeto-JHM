@@ -32,8 +32,8 @@ class contactUserFormRequest extends FormRequest
         return[
             'required' => 'Campo obrigatório!',
             'email' => 'Digite um endereço de Email válido!',
-            'max' => 'Este campo deve conter até no máximo :max caractéres!',
-            'min' => 'Este campo deve conter até no mínimo :min caractéres!',
+            'max' => 'Este campo deve conter no máximo :max caractéres!',
+            'min' => 'Este campo deve conter no mínimo :min caractéres!',
         ];
     }
 }

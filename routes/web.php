@@ -91,8 +91,8 @@ Route::post('/reset-password', function (Request $request) {
         'email.required' => 'Campo obrigatório!',
         'email.email' => 'Digite um Email válido!',
         'password.required' => 'Campo obrigatório!',
-        'password.max' => 'Este campo deve conter até no máximo :max caractéres!',
-        'password.min' => 'Este campo deve conter até no mínimo :min caractéres!',
+        'password.max' => 'Este campo deve conter no máximo :max caractéres!',
+        'password.min' => 'Este campo deve conter no mínimo :min caractéres!',
         'password.confirmed' => 'O campo Nova Senha não combina com a Senha de Confirmação!',
         
     ]);

@@ -31,10 +31,10 @@ class autenticacaoController extends Controller
       'email.email' => 'Digite um endereço de Email válido!',
       'email.required' => 'Campo obrigatório!',
       'password.required' => 'Campo obrigatório!',
-      'password.max' => 'Este campo deve conter até no máximo :max caractéres!',
-      'password.min' => 'Este campo deve conter até no mínimo :min caractéres!',
-      'name.min' => 'Este campo deve conter até no mínimo :min caractéres!',
-      'name.max' => 'Este campo deve conter até no máximo :max caractéres!'
+      'password.max' => 'Este campo deve conter no máximo :max caractéres!',
+      'password.min' => 'Este campo deve conter no mínimo :min caractéres!',
+      'name.min' => 'Este campo deve conter no mínimo :min caractéres!',
+      'name.max' => 'Este campo deve conter no máximo :max caractéres!'
    ]);
    $credentials = $request->only('name', 'email', 'password');
    $authenticated = Auth::attempt($credentials, $request->remember);

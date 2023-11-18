@@ -29,8 +29,8 @@ class contatoController extends Controller
             'email.required' => 'Campo obrigatório!',
             'subject.required' => 'Campo obrigatório!',
             'message.required' => 'Campo obrigatório!',
-            'name.min' => 'Este campo deve conter até no mínimo :min caractéres!',
-            'name.max' => 'Este campo deve conter até no máximo :max caractéres!'
+            'name.min' => 'Este campo deve conter no mínimo :min caractéres!',
+            'name.max' => 'Este campo deve conter no máximo :max caractéres!'
 
         ]);
         
