@@ -32,7 +32,7 @@ Route::middleware([
 
 //Rotas externas
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
 route::get('qualidades',[qualidadeController::class, 'index'])->name('route.qualidade');
 route::get('contato', [contatoController::class, 'index'])->name('route.contato');
