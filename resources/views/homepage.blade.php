@@ -46,9 +46,9 @@
             
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                <li class="nav-item"><a href="qualidade.html" class="nav-link">QUALIDADES</a></li>
+                <li class="nav-item"><a href="qualidades" class="nav-link">QUALIDADES</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
-                <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
+                <li class="nav-item"><a href="contato" class="nav-link">CONTATO</a></li>
             </ul>
         </div>
     </header>
@@ -110,6 +110,67 @@
                 <img class="img-carrossel-centro" src="img/motores/w22-premium.jpg" alt="motor 1">
             </div>
         </div>
+
+        <section id="container-atendimento-online">
+            <div class="div-atendimento">
+                <p>Rua João Covolan Filho, 352 - Distrito Industrial</p>
+                <p>Santa Bárbara d'Oeste/SP</p>
+            </div>
+            <div class="div-atendimento">
+                <p>Telefone: (19)3026-5555</p>
+                <p>E-mail: jhm@motores.com.br</p>
+            </div>
+            <a href="#" id="botao-atendimento"><p>ATENDIMENTO ONLINE</p></a>
+        </section>
+
+        <section id="container-sobre">
+            <div id="sobre-img">
+                <div id="sobre">
+                    <h2>JHM Motores</h2>
+                    <p>Atendendo a grandes pólos industriais como São Paulo, Campinas, Limeira, Piracicaba e Ribeirão Preto, fixando um público-alvo representado em sua maioria, por Multinacionais, a JHM possui uma estrutura informal, porém flexível, onde cada responsável pela área tem um determinado nível de autonomia para tomar as decisões que julgar necessárias para manter a produção e cumprimento de prazos junto aos clientes.</p>
+                </div>
+                <img src="img/selo1996.png" alt="desde 1996">
+            </div>
+            <div id="revenda">
+                <h2>Revenda de Motores</h2>
+                <p>A JHM preza pela excelência no atendimento e qualidade na comercialização de produtos e serviços e disponibiliza aos seus clientes toda a linha de MOTORES INDUSTRIAIS WEG, proporcionando soluções de maneira rápida, confiável e eficaz.</p>
+            </div>
+        </section>
+
+        <section class="tudo-div">
+            <div id="imagem-div">
+                <img src="img/desenhocontato.png" alt="Desenho Contato">
+            </div>
+            <div class="container">
+                <div id="container-titulo">
+                    <h2>Preencha o formulário abaixo e entre em contato conosco.</h2>
+                </div>
+                <div id="container-inputs">
+                    <form action="#" method="get">
+                        <p class="form-group">
+                            <label for="iname" class="form-label">Seu nome:</label>
+                            <input type="text" name="name" id="iname" class="form-input" required>
+                        </p>
+                        <p class="form-group">
+                            <label for="iemail" class="form-label">E-mail:</label>
+                            <input type="email" name="email" id="iemail" class="form-input" required>
+                        </p>
+                        <p class="form-group">
+                            <label for="iassunto" class="form-label">Assunto:</label>
+                            <input type="text" name="assunto" id="iassunto" class="form-input" required>
+                        </p>
+                        <p class="form-group">
+                            <label for="imsg" class="form-label">Sua mensagem:</label>
+                            <textarea name="msg" id="imsg" cols="30" rows="10" class="form-input"></textarea>
+                        </p>
+                    </form>
+                </div>
+                <div id="container-buttom">
+                    <a href="#"><input type="button" value="Enviar"></a>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
@@ -142,7 +203,7 @@
                 speed: 500,
                 autoplaySpeed: 5000,
                 infinite: true,
-                // autoplay: true,
+                autoplay: true,
                 centerMode: true,
                 centerPadding: "70px",
                 dots: true,

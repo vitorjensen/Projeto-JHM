@@ -49,9 +49,9 @@
             
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">QUALIDADES</a></li>
+                <li class="nav-item"><a href="qualidades" class="nav-link">QUALIDADES</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">CONTATO</a></li>
+                <li class="nav-item"><a href="contato" class="nav-link">CONTATO</a></li>
             </ul>
         </div>
     </header>
