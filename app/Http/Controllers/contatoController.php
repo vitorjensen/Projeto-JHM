@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\contactUserFormRequest;
 use App\Mail\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 
 class contatoController extends Controller
@@ -33,7 +34,11 @@ class contatoController extends Controller
             'name.max' => 'Este campo deve conter no máximo :max caractéres!'
 
         ]);
-        
+        $authenticated = Auth::check();
+
+        if(!$authenticated){
+            return redirect()->route('route.contato')->with('error', 'Faça Login para entrar em contato conosco!');
+        }
         Mail::to('vitorjensen6@gmail.com', 'Vitor Jensen')->send(new Contact([
             
             'fromName'=> $request->input('name'),

@@ -127,13 +127,13 @@
             <div id="sobre-img">
                 <div id="sobre">
                     <h2>JHM Motores</h2>
-                    <p>Atendendo a grandes pólos industriais como São Paulo, Campinas, Limeira, Piracicaba e Ribeirão Preto, fixando um público-alvo representado em sua maioria, por Multinacionais, a JHM possui uma estrutura informal, porém flexível, onde cada responsável pela área tem um determinado nível de autonomia para tomar as decisões que julgar necessárias para manter a produção e cumprimento de prazos junto aos clientes.</p>
+                    <p>Atendendo a grandes pólos industriais como São Paulo, Campinas, Limeira, Piracicaba, Ribeirão Preto, fixando um público-alvo representado, em sua maioria, por Multinacionais, a JHM possui uma estrutura informal, porém estruturada e flexível, onde cada responsável pela área tem um determinado nível de autonomia para tomar as decisões que julgar necessárias para manter a produção e cumprimento de prazos junto aos clientes.</p>
                 </div>
                 <img src="img/selo1996.png" alt="desde 1996">
             </div>
             <div id="revenda">
                 <h2>Revenda de Motores</h2>
-                <p>A JHM preza pela excelência no atendimento e qualidade na comercialização de produtos e serviços e disponibiliza aos seus clientes toda a linha de MOTORES INDUSTRIAIS WEG, proporcionando soluções de maneira rápida, confiável e eficaz.</p>
+                <p>A JHM preza pela excelência no atendimento e qualidade na comercialização de produtos e serviços e disponibiliza aos seus clientes toda a linha de MOTORES INDUSTRIAIS WEG, proporcionado soluções de maneira rápida, confiável e eficaz.</p>
             </div>
         </section>
 
@@ -145,30 +145,69 @@
                 <div id="container-titulo">
                     <h2>Preencha o formulário abaixo e entre em contato conosco.</h2>
                 </div>
-                <div id="container-inputs">
-                    <form action="#" method="get">
-                        <p class="form-group">
-                            <label for="iname" class="form-label">Seu nome:</label>
-                            <input type="text" name="name" id="iname" class="form-input" required>
-                        </p>
-                        <p class="form-group">
-                            <label for="iemail" class="form-label">E-mail:</label>
-                            <input type="email" name="email" id="iemail" class="form-input" required>
-                        </p>
-                        <p class="form-group">
-                            <label for="iassunto" class="form-label">Assunto:</label>
-                            <input type="text" name="assunto" id="iassunto" class="form-input" required>
-                        </p>
-                        <p class="form-group">
-                            <label for="imsg" class="form-label">Sua mensagem:</label>
-                            <textarea name="msg" id="imsg" cols="30" rows="10" class="form-input"></textarea>
-                        </p>
-                    </form>
-                </div>
-                <div id="container-buttom">
-                    <a href="#"><input type="button" value="Enviar"></a>
-                </div>
+                           <div id="container-inputs">
+                <form action="{{route('route.contact.store')}}" method="post">
+                @csrf
+                    <p class="form-group">
+                        <label for="iname" class="form-label">Seu nome:</label>
+                        <input type="text" name="name" id="name" value="" class="form-input">
+                    </p>
+                    @error('name')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
+                    <p class="form-group">
+                        <label for="iemail" class="form-label">E-mail:</label>
+                        <input type="email" name="email" id="email" value="" class="form-input" >
+                    </p>
+                    @error('email')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
+                    <p class="form-group">
+                        <label for="iassunto" class="form-label">Assunto:</label>
+                        <input type="text" name="subject" id="subject" class="form-input" >
+                    </p>
+                     @error('subject')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
+                    <p class="form-group">
+                        <label for="imsg" class="form-label">Sua mensagem:</label>
+                        <textarea name="message" id="message" cols="30" rows="10" class="form-input"></textarea>
+                    </p>
+                     @error('message')
+                        <div class="invalid-feedback" style="color: red;">
+                        {{$message}}
+                        </div>
+                        <br>
+                        @enderror
             </div>
+            <script>
+            @if(Session::has('success'))
+
+            toastr.success("{{ session('success')}}")
+            @endif
+
+            </script>
+            <script>
+            @if(Session::has('error'))
+
+            toastr.error("{{ session('error')}}")
+            @endif
+
+            </script>
+            <div id="container-buttom">
+                <a href="#"><input type="submit" value="Enviar"></a>
+            </div>
+            </form>
+        </div>
         </section>
 
     </main>

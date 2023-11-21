@@ -75,7 +75,7 @@
                 @csrf
                     <p class="form-group">
                         <label for="iname" class="form-label">Seu nome:</label>
-                        <input type="text" name="name" id="name" class="form-input">
+                        <input type="text" name="name" id="name" value="" class="form-input">
                     </p>
                     @error('name')
                         <div class="invalid-feedback" style="color: red;">
@@ -85,7 +85,7 @@
                         @enderror
                     <p class="form-group">
                         <label for="iemail" class="form-label">E-mail:</label>
-                        <input type="email" name="email" id="email" class="form-input" >
+                        <input type="email" name="email" id="email" value="" class="form-input" >
                     </p>
                     @error('email')
                         <div class="invalid-feedback" style="color: red;">
@@ -118,6 +118,13 @@
             @if(Session::has('success'))
 
             toastr.success("{{ session('success')}}")
+            @endif
+
+            </script>
+            <script>
+            @if(Session::has('error'))
+
+            toastr.error("{{ session('error')}}")
             @endif
 
             </script>
