@@ -118,7 +118,7 @@
                         <input type="password" name="password" id="password" class="form-input" required>
                         <label for="isenha" class="form-label">Senha:</label>
                     </p>
-                 <input type="checkbox" name="remember"> Lembre-me
+                 <input type="checkbox" name="remember" value="old('remember') ? 'checked' : ''}}" > Lembre-me
             </div>
             <br>
             <div class="main-all-button" class="container">
