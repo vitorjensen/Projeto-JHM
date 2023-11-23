@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\autenticacaoController;
 use App\Http\Controllers\contatoController;
+use App\Http\Controllers\produtosController;
 use App\Http\Controllers\qualidadeController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
@@ -37,6 +38,7 @@ Route::get('/', function () {
 route::get('qualidades',[qualidadeController::class, 'index'])->name('route.qualidade');
 route::get('contato', [contatoController::class, 'index'])->name('route.contato');
 route::post('contato', [contatoController::class, 'store'])->name('route.contact.store');
+route::get('produtos',[produtosController::class, 'index'])->name('route.produtos');
 //Fim das Rotas externas
 
 

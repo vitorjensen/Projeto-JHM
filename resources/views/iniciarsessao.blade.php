@@ -25,7 +25,7 @@
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
                     <li class="nav-item"><a href="{{route('route.qualidade')}}" class="nav-link">QUALIDADES</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                    <li class="nav-item"><a href="{{route('route.produtos')}}" class="nav-link">PRODUTOS</a></li>
                     <li class="nav-item"><a href="{{route('route.contato')}}" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
                 <li class="nav-item"><a href="qualidades" class="nav-link">QUALIDADES</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                <li class="nav-item"><a href="produtos" class="nav-link">PRODUTOS</a></li>
                 <li class="nav-item"><a href="contato" class="nav-link">CONTATO</a></li>
             </ul>
         </div>
@@ -105,7 +105,6 @@
                     <p class="form-group">
                         <input type="text" name="email" id="email" value="{{ old('email') }}" class="form-input" required>
                         <label for="iemail" class="form-label">E-mail:</label>
-                      
                     </p>
                 @error('password')
                 <div class="invalid-feedback" style="color: red;">

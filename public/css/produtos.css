@@ -1,0 +1,53 @@
+main{
+    margin-bottom: 100px;
+}
+
+.descricao{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.descricao>p{
+    width: 40%;
+    text-align: justify;
+}
+.descricao>img{
+    width: 180px;
+}
+
+.produto-item{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* background-color: antiquewhite; */
+}
+
+.container-motores{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: aqua; */
+}
+
+.pesquisa-produtos{
+    margin-top: 20px;
+}
+
+.motores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

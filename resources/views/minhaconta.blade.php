@@ -25,7 +25,7 @@
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
                     <li class="nav-item"><a href="{{route('route.qualidade')}}" class="nav-link">QUALIDADES</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                    <li class="nav-item"><a href="produtos" class="nav-link">PRODUTOS</a></li>
                     <li class="nav-item"><a href="{{route('route.contato')}}" class="nav-link">CONTATO</a></li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
                 <li class="nav-item"><a href="qualidades" class="nav-link">QUALIDADES</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">PRODUTOS</a></li>
+                <li class="nav-item"><a href="produtos" class="nav-link">PRODUTOS</a></li>
                 <li class="nav-item"><a href="contato" class="nav-link">CONTATO</a></li>
             </ul>
         </div>
