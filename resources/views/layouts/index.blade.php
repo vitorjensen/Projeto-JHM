@@ -30,7 +30,7 @@
 }
 </style>
 <body>
-    <!-- INICIO -->
+      <!-- INICIO -->
     <header>
         <nav class="nav-bar">
             <div class="logo">
@@ -73,7 +73,7 @@
           </h5>
          </div>
                 @endif
-            </div>
+            </div>        
         </nav>
 
         <div class="menu-mobile">
@@ -89,7 +89,7 @@
             </ul>
         </div>
     </header>
-  
+    
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
             <h1>PRODUTOS</h1>
@@ -106,7 +106,7 @@
    
 
 <!-- INICIO FOOTER -->
-    <footer>
+<footer>
         <section class="footer-grid">
             <div class="footer-grid-onde">
                 <h2>Onde Estamos</h2>
@@ -122,7 +122,7 @@
             <p class="direitos-p">Todos os Direitos Reservados  JHM Motores - Desenvolvido por alunos da <a href="">FUMEP, EEP</a></p>
         </div>
     </footer>
-<!-- FIM DO FOOTER -->
+    <!-- FIM DO FOOTER -->
     <script src="js/script.js"></script>
 </body>
 </html>
