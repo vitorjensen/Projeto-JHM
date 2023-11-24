@@ -1,6 +1,34 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(footer.css);
+
+:root{
+    --color-blue1: #052149;
+    --color-blue2: #093472;
+    --color-blue3: #1FB8FF;
+    --color-blue3-2: #1983b4;
+    --color-blue3-3: #14648a;
+    --color-white: #fff;
+
+    --rad: .2rem;
+    --dur: .3s;
+    --color-dark: #052149;
+    --color-light: #fff;
+    --color-brand: #1983b4;
+    --font-fam: 'Lato', sans-serif;
+    --height: 2.3rem;
+    --btn-width: 8rem;
+    --bez: cubic-bezier(0, 0, 0.43, 1.49);
+}
+
+*{
+    outline: none;
+}
+
 main{
     margin-bottom: 100px;
 }
+
 
 .descricao{
     display: flex;
@@ -18,12 +46,30 @@ main{
     width: 180px;
 }
 
+
 .produto-item{
+    list-style-type: none;
+}
+.produto-item>a{
     display: flex;
     align-items: center;
     width: 250px;
     padding: 10px;
+    text-decoration: none;
     border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+.produto-item>a>img{
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.produto-item>a>p{
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-blue3-2);
+}
+.produto-item>a:hover{
+    text-decoration: underline;
 }
 
 .container{
@@ -51,3 +97,101 @@ main{
     flex-direction: column;
     align-items: center;
 }
+.motores>img{
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.motores>p{
+    margin-bottom: 5px;
+}
+
+.botao-lermais{
+    text-decoration: none;
+    color: white;
+    background-color: var(--color-blue3-2);
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+.botao-lermais:hover{
+    transition: background-color 0.3s;
+    background-color: var(--color-blue3-3);
+}
+
+/*------------- PESQUISAR BOTAO --------------------------------*/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+  
+  /* Main styles */
+form {
+    position: relative;
+    width: 20rem;
+    background: var(--color-brand);
+    border-radius: var(--rad);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.000001);
+}
+  
+input, button {
+    height: var(--height);
+    font-family: var(--font-fam);
+    color: var(--color-dark);
+    border: 0;
+    font-size: 1rem;
+}
+  
+input[type="search"] {
+    width: 100%;
+    background: var(--color-light);
+    padding: 0 1rem;
+    border-radius: var(--rad);
+    appearance: none;
+    transition: all var(--dur) var(--bez);
+    transition-property: width, border-radius;
+    z-index: 1;
+    position: relative;
+}
+  
+button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: var(--btn-width);
+    font-weight: bold;
+    background: var(--color-brand);
+    border-radius: 0 var(--rad) var(--rad) 0;
+}
+button>p {
+    position: relative;
+    right: -15px;
+}
+  
+input:not(:placeholder-shown) {
+    border-radius: var(--rad) 0 0 var(--rad);
+    width: calc(100% - var(--btn-width));
+}
+  
+input:not(:placeholder-shown) + button {
+    display: block;
+}
+  
+label {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
