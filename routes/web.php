@@ -37,6 +37,15 @@ route::get('qualidades',[qualidadeController::class, 'index'])->name('route.qual
 route::get('contato', [contatoController::class, 'index'])->name('route.contato');
 route::post('contato', [contatoController::class, 'store'])->name('route.contact.store');
 route::get('produtos',[produtosController::class, 'index'])->name('route.produtos');
+route::get('motor-a-prova-de-explosao',[produtosController::class, 'explosao'])->name('route.motor_1');
+route::get('motor-freio-a-prova-de-explosao',[produtosController::class, 'motorfreio'])->name('route.motor_2');
+route::get('motor-freio-redutor-tipo-1',[produtosController::class, 'motorfreioredutor'])->name('route.motor_3');
+route::get('motor-freio-alto-redimento-plus',[produtosController::class, 'motorfreioplus'])->name('route.motor_4');
+route::get('w22-premium',[produtosController::class, 'wpremium'])->name('route.motor_5');
+route::get('w22-plus',[produtosController::class, 'wplus'])->name('route.motor_6');
+route::get('w21-carcaca-de-aluminio-montagem',[produtosController::class, 'w21'])->name('route.motor_7');
+route::get('w21-alto-rendimento-plus',[produtosController::class, 'w21plus'])->name('route.motor_8');
+route::get('w21-motor-trifasico-ip55',[produtosController::class, 'motortrifasico'])->name('route.motor_9');
 route::get('empresa',function(){return view('empresa');});
 //Fim das Rotas externas
 

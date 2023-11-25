@@ -33,6 +33,18 @@ header{
     height: 40px;
 }
 
+#ativo a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-blue3);
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
 .nav-list{
     width: 60%;
     display: flex;

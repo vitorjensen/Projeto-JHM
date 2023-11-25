@@ -1,0 +1,88 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(footer.css);
+
+:root{
+    --color-blue1: #052149;
+    --color-blue2: #093472;
+    --color-blue2-2: #07295a;
+    --color-blue3: #1FB8FF;
+    --color-blue3-2: #1983b4;
+    --color-blue3-3: #14648a;
+    --color-white: #fff;
+}
+
+.container-sobre-motor{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container-sobre-motor > img{
+    width: 400px;
+}
+
+
+.sobre-motor > h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.sobre-motor{
+    width: 40%;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.btn-car{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-car>a{
+    background-color: var(--color-blue2);
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.btn-car>a:hover{
+    cursor: pointer;
+    background-color: var(--color-blue2-2);
+    transition: background-color 0.3s;
+}
+
+/*------------------------- selection ------------ */
+
+.selection{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    /* padding: 5px; */
+    border-bottom: 2px solid #EFEFEF;
+}
+
+.selection>ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+
+#ativo{
+    border-bottom: 2px solid var(--color-blue3);
+}
+
+.container-selection{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.container-selection > ul{
+    margin-top: 10px;
+    padding-left: 30px;
+    line-height: 24px;
+}

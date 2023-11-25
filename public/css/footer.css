@@ -51,6 +51,9 @@
 }
 footer{
     animation: expandOpacity 2s ease-in-out forwards;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
 
 @keyframes expandOpacity {

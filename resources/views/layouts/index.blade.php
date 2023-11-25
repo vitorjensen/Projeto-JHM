@@ -6,7 +6,9 @@
     <link rel="shortcut icon" href="img/jhm-icon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/5ff722f86b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/motor.css">
     <title>JHM | PRODUTOS</title>
 </head>
 <style>
@@ -34,7 +36,7 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <a href="homepage.html"><img src="img/jhm-logo-branco.png" alt="Logo JHM"></a>
+                <a href="/"><img src="img/jhm-logo-branco.png" alt="Logo JHM"></a>
             </div>
 
             <div class="nav-list">
@@ -103,7 +105,15 @@
   <!-- FIM  -->
 
    @yield('main')
-   
+   @yield('main1')
+   @yield('main2')
+   @yield('main3')
+   @yield('main4')
+   @yield('main5')
+   @yield('main6')
+   @yield('main7')
+   @yield('main8')
+   @yield('main9')
 
 <!-- INICIO FOOTER -->
 <footer>
