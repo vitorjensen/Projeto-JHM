@@ -39,7 +39,7 @@
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">EMPRESA</a></li>
+                    <li class="nav-item"><a href="empresa" class="nav-link">EMPRESA</a></li>
                     <li class="nav-item"><a href="qualidades" class="nav-link">QUALIDADES</a></li>
                     <li class="nav-item" id="ativo"><a href="produtos" class="nav-link">PRODUTOS</a></li>
                     <li class="nav-item"><a href="contato" class="nav-link">CONTATO</a></li>
@@ -56,7 +56,7 @@
 
             <div class="nav-profile">
             <div class="dropdown">
-            <a href="minhaconta.html"><img src="img/perfil.png" alt="Perfil"></a>
+            <a href="minhaconta"><img src="img/perfil.png" alt="Perfil"></a>
              @if(auth()->check())
             <div class="dropdown-content">
             <h5 class="dropdown-item dropdown-footer">
@@ -78,7 +78,7 @@
 
         <div class="menu-mobile">
             <div class="nav-profile">
-                <a href="minhaconta.html"><img src="img/perfil.png" alt="Perfil"></a>
+                <a href="minhaconta"><img src="img/perfil.png" alt="Perfil"></a>
             </div>
             
             <ul>

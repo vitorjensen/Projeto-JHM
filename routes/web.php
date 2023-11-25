@@ -32,17 +32,13 @@ Route::middleware([
 ]);
 
 //Rotas externas
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/', function () {return view('homepage');});
 route::get('qualidades',[qualidadeController::class, 'index'])->name('route.qualidade');
 route::get('contato', [contatoController::class, 'index'])->name('route.contato');
 route::post('contato', [contatoController::class, 'store'])->name('route.contact.store');
 route::get('produtos',[produtosController::class, 'index'])->name('route.produtos');
+route::get('empresa',function(){return view('empresa');});
 //Fim das Rotas externas
-
-
-
 
 //Rotas de Autenticação
 // Auth::routes(['verify' => true]);

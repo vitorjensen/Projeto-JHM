@@ -101,6 +101,18 @@ button, input[type="submit"]:hover{
     transition: 0.5s; 
 }
 
+.phone-otp-socialsignin-button {
+    height: 38px !important;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #f5f6f7;
+    padding: 0px 10px 0px 10px;
+    width: 227.39px;
+    font-size: 14px !important;
+    border-color: #ddd;
+    border-width: 1px;
+    color: black;
+}
+
 .main-all-button{
     display: flex;
     gap: 30px;

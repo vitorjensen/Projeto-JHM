@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(footer.css);
+
+
+:root{
+    --color-blue1: #052149;
+    --color-blue2: #093472;
+    --color-blue3: #1FB8FF;
+    --color-white: #fff;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.txt-img{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.img>img{
+    height: 300px;
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.googlemaps{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
