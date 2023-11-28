@@ -102,7 +102,7 @@ button, input[type="submit"]:hover{
 }
 
 .phone-otp-socialsignin-button {
-    height: 38px !important;
+    height: 40px !important;
     background-color: rgba(0,0,0,0);
     border: 1px solid #f5f6f7;
     padding: 0px 10px 0px 10px;

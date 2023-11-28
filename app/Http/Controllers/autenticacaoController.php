@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Library\GoogleClient;
+use App\Library\Authenticate;
 use App\Http\Requests\StoreUpdateUserFormRequest;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -16,7 +17,16 @@ class autenticacaoController extends Controller
 
  public function login()
  {
- return view('iniciarsessao');
+   $googleClient = new GoogleClient;
+   $googleClient->init();
+
+   if($googleClient->authenticated())
+   {
+       $auth = new Authenticate();
+       return $auth->authGoogle($googleClient->getData());
+   }
+ 
+   return view('iniciarsessao',['authUrl' => $googleClient->generateLink()]);
  }
 
  public function auth(Request $request)
