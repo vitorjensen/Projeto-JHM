@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/homepage.css">
     <script src="js/script.js" defer></script>
-    <title>JHM | PÁGINA INICIAL</title>
+    <title>JHM | HOME</title>
 </head>
 <body>
     <header>
