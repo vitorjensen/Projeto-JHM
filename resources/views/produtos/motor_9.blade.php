@@ -26,21 +26,21 @@
         <section class="container-selection">
             <h2>Característica</h2> <!-- Altera conforme a escolha -->
             <ul>
-            <li>Grau de proteção: IP55;</li>
-            <li>Vedação dos mancais: V’Ring;</li>
-            <li>Carcaças: ferro fundido;</li>
-            <li>Dreno automático;</li>
-            <li>Potências: 0,16 a 500 cv (carcaças 63 a 355M/L);</li>
-            <li>Classe de Isolamento “F” (ΔT 80 °C);</li>
-            <li>Fator de serviço: 1,15 (carcaças 63 a 200L), 1,00 (carcaças 225S/M a 355M/L);</li>
-            <li>Rolamentos de esferas (com graxeira a partir da carcaça 225S/M);</li>
-            <li>Rolamento dianteiro de rolos: carcaças 355M/L – 4, 6 e 8 pólos;</li>
-            <li>Forma construtiva B3D;</li>
-            <li>Sistema de Isolamento WISE;</li>
-            <li>Categoria: N;</li>
-            <li>Apto a operar com inversor de freqüência</li>
-            <li>Tensões: 220/380 V; 380/660 V (carcaças 63 a 200L), 220/380/440 V (carcaças 225S/M a 355M/L)</li>
-            <li>Cor: Azul RAL 5007;</li>
+            <li>Grau de proteção: IP55.</li>
+            <li>Vedação dos mancais: V’Ring.</li>
+            <li>Carcaças: ferro fundido.</li>
+            <li>Dreno automático.</li>
+            <li>Potências: 0,16 a 500 cv (carcaças 63 a 355M/L).</li>
+            <li>Classe de Isolamento “F” (ΔT 80 °C).</li>
+            <li>Fator de serviço: 1,15 (carcaças 63 a 200L), 1,00 (carcaças 225S/M a 355M/L).</li>
+            <li>Rolamentos de esferas (com graxeira a partir da carcaça 225S/M).</li>
+            <li>Rolamento dianteiro de rolos: carcaças 355M/L – 4, 6 e 8 pólos.</li>
+            <li>Forma construtiva B3D.</li>
+            <li>Sistema de Isolamento WISE.</li>
+            <li>Categoria: N.</li>
+            <li>Apto a operar com inversor de freqüência.</li>
+            <li>Tensões: 220/380 V; 380/660 V (carcaças 63 a 200L), 220/380/440 V (carcaças 225S/M a 355M/L).</li>
+            <li>Cor: Azul RAL 5007.</li>
             </ul>
         </section>
         <aside class="container-wa">

@@ -26,15 +26,15 @@
         <section class="container-selection">
             <h2>Característica</h2> <!-- Altera conforme a escolha -->
             <ul>
-        <li>Também disponível em Alto Rendimento Plus;</li>
-        <li>Potência: 0,16 a 15 cv (0,12 a 11 kW)</li>
-        <li>Pólos: II, IV, VI e VIII</li>
-        <li>Carcaça (63 a 132M)</li>
-        <li>Baixa tensão</li>
-        <li>Freqüência: 60 ou 50Hz</li>
-        <li>Proteção: IP55 (TFVE)</li>
-        <li>De acordo com a Norma ABNT / IEC</li>
-        <li>Caixa de ligação no topo</li>
+        <li>Também disponível em Alto Rendimento Plus.</li>
+        <li>Potência: 0,16 a 15 cv (0,12 a 11 kW).</li>
+        <li>Pólos: II, IV, VI e VIII.</li>
+        <li>Carcaça (63 a 132M).</li>
+        <li>Baixa tensão.</li>
+        <li>Freqüência: 60 ou 50Hz.</li>
+        <li>Proteção: IP55 (TFVE).</li>
+        <li>De acordo com a Norma ABNT / IEC.</li>
+        <li>Caixa de ligação no topo.</li>
             </ul>
         </section>
         <aside class="container-wa">

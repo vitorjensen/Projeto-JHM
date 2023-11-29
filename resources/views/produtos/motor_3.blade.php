@@ -26,21 +26,21 @@
         <section class="container-selection">
             <h2>Característica</h2> <!-- Altera conforme a escolha -->
             <ul>
-            <li>Também disponível em Alto Rendimento Plus;</li>
-            <li>Freio especial INTORQ (Maior conjugado frenagem)</li>
-            <li>Grau de proteção: IP55;</li>
-            <li>Vedação especial: Oil Seal – retentor com mola (dianteiro) e retentor sem molas (traseiro);</li>
-            <li>Carcaças em ferro fundido;</li>
-            <li>Bujão para dreno de óleo;</li>
-            <li>Anel de centrifugação de óleo;</li>
-            <li>Potências: 0,16 a 15 cv (carcaças 63 a 132M)</li>
-            <li>Classe de isolamento “F” (ΔT 80● C);</li>
-            <li>Fator de Serviço: 1,15;</li>
-            <li>Rolamento de esferas;</li>
-            <li>Categoria N;</li>
-            <li>Tensões: 220/380 V, 380/660 V ou 220/380/440 V;</li>
-            <li>Cor: Azul RAL 5007;</li>
-            <li>Apto a operar com inversor de freqüência;</li>
+            <li>Também disponível em Alto Rendimento Plus.</li>
+            <li>Freio especial INTORQ (Maior conjugado frenagem).</li>
+            <li>Grau de proteção: IP55.</li>
+            <li>Vedação especial: Oil Seal – retentor com mola (dianteiro) e retentor sem molas (traseiro).</li>
+            <li>Carcaças em ferro fundido.</li>
+            <li>Bujão para dreno de óleo.</li>
+            <li>Anel de centrifugação de óleo.</li>
+            <li>Potências: 0,16 a 15 cv (carcaças 63 a 132M).</li>
+            <li>Classe de isolamento “F” (ΔT 80● C).</li>
+            <li>Fator de Serviço: 1,15.</li>
+            <li>Rolamento de esferas.</li>
+            <li>Categoria N.</li>
+            <li>Tensões: 220/380 V, 380/660 V ou 220/380/440 V.</li>
+            <li>Cor: Azul RAL 5007.</li>
+            <li>Apto a operar com inversor de freqüência.</li>
             </ul>
         </section>
         <aside class="container-wa">

@@ -25,23 +25,23 @@
         <section class="container-selection">
             <h2>Característica</h2> <!-- Altera conforme a escolha -->
             <ul>
-                <li>Alto Rendimento Plus:</li>
-                <li>Grau de proteção: IP66W:</li>
-                <li>Potências: 0,33 a 50 cv (carcaças 90S a 200L):</li>
-                <li>Polaridade: II, IV, VI e VIII:</li>
-                <li>Frequência: 60 Hz:</li>
-                <li>Tensão: 440 V;</li>
-                <li>Apto a operar com inversor de frequência;</li>
-                <li>Vedação dos mancais: Retentor com mola (Carcaças 90S a 112M); Labirinto W3Seal® Carcaças 132S a 200L;</li>
-                <li>Carcaças em ferro fundido;</li>
-                <li>Classe de isolamento “F” (ΔT 80● C);</li>
-                <li>Sistema de isolação WISE® (WEG Insulation System Evolution);</li>
-                <li>Fator de serviço 1,15;</li>
-                <li>Proteção térmica PTC 130;</li>
-                <li>Apto a trabalhar em Zona 1 e Zona 2;</li>
-                <li>Placa de Bornes;</li>
-                <li>Certificação UC / Brasil;</li>
-                <li>Cor: Verde 6002</li>
+                <li>Alto Rendimento Plus.</li>
+                <li>Grau de proteção: IP66W.</li>
+                <li>Potências: 0,33 a 50 cv (carcaças 90S a 200L).</li>
+                <li>Polaridade: II, IV, VI e VIII.</li>
+                <li>Frequência: 60 Hz.</li>
+                <li>Tensão: 440 V.</li>
+                <li>Apto a operar com inversor de frequência.</li>
+                <li>Vedação dos mancais: Retentor com mola (Carcaças 90S a 112M); Labirinto W3Seal® Carcaças 132S a 200L.</li>
+                <li>Carcaças em ferro fundido.</li>
+                <li>Classe de isolamento “F” (ΔT 80● C).</li>
+                <li>Sistema de isolação WISE® (WEG Insulation System Evolution).</li>
+                <li>Fator de serviço 1,15.</li>
+                <li>Proteção térmica PTC 130.</li>
+                <li>Apto a trabalhar em Zona 1 e Zona 2.</li>
+                <li>Placa de Bornes.</li>
+                <li>Certificação UC / Brasil.</li>
+                <li>Cor: Verde 6002.</li>
                 <li>Plano de pintura WEG 203A.</li>
             </ul>
         </section>

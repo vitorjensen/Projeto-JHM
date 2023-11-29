@@ -25,16 +25,16 @@
         <section class="container-selection">
             <h2>Característica</h2> <!-- Altera conforme a escolha -->
             <ul>
-                <li>Proteção: IP55;</li>
-                <li>Vedação nos mancais: retentor (90S a 315, II Pólos);</li>
-                <li>Carcaça: Ferro fundido labirinto taconite (315 IV, VI, VIII pólos a 355);</li>
-                <li>Potência: 0,5 a 500cv (carcaças 90S a 355M/L);</li>
-                <li>Termostato;</li>
-                <li>Classe de isolamento “F” (ΔT 80° C);</li>
-                <li>Fator de Serviço: 1.00;</li>
-                <li>Tensões: 220/380V, 380/660V (carcaças 90S a 200L); 220/380/440V (carcaças 225S/M a 355M/L);</li>
-                <li>Cor: Azul RAL 5007;</li>
-                <li>Anel de fixação interno em ambas as tampas, para impedir a propagação das chamas;</li>
+                <li>Proteção: IP55.</li>
+                <li>Vedação nos mancais: retentor (90S a 315, II Pólos).</li>
+                <li>Carcaça: Ferro fundido labirinto taconite (315 IV, VI, VIII pólos a 355).</li>
+                <li>Potência: 0,5 a 500cv (carcaças 90S a 355M/L).</li>
+                <li>Termostato.</li>
+                <li>Classe de isolamento “F” (ΔT 80° C).</li>
+                <li>Fator de Serviço: 1.00.</li>
+                <li>Tensões: 220/380V, 380/660V (carcaças 90S a 200L); 220/380/440V (carcaças 225S/M a 355M/L).</li>
+                <li>Cor: Azul RAL 5007.</li>
+                <li>Anel de fixação interno em ambas as tampas, para impedir a propagação das chamas.</li>
                 <li>Placa de identificação contendo: normas, áreas classificadas, categoria de temperatura, número do certificado de conformidade.</li>
             </ul>
         </section>

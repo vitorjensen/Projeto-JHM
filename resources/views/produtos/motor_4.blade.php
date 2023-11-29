@@ -26,21 +26,21 @@
         <section class="container-selection">
             <h2>Característica</h2> <!-- Altera conforme a escolha -->
             <ul>
-            <li>Alto Rendimento Plus;</li>
-            <li>Grau de proteção: IP55;</li>
-            <li>Vedação nos mancais: V’Ring;</li>
-            <li>Carcaças: ferro fundido;</li>
-            <li>Dreno automático;</li>
-            <li>Potências: 0,16 a 500 cv (carcaças 63 a 355M/L);</li>
-            <li>Classe de isolamento “F” (ΔT 80● C);</li>
-            <li>Fator de serviço: 1,15;</li>
-            <li>Rolamento de esferas (com graxeira a partir da carcaça 225S/M);</li>
-            <li>Rolamento dianteiro de rolos: carcaças 355M/L – 4, 6 e 8 pólos;</li>
-            <li>Sistema de isolamento WISE;</li>
-            <li>Categoria: N;</li>
-            <li>Tensões: 220/380 V, 380/660 V (carcaças 63 a 200L), 220/380/440 V (carcaças 225S/M a 355M/L);</li>
+            <li>Alto Rendimento Plus.</li>
+            <li>Grau de proteção: IP55.</li>
+            <li>Vedação nos mancais: V’Ring.</li>
+            <li>Carcaças: ferro fundido.</li>
+            <li>Dreno automático.</li>
+            <li>Potências: 0,16 a 500 cv (carcaças 63 a 355M/L).</li>
+            <li>Classe de isolamento “F” (ΔT 80● C).</li>
+            <li>Fator de serviço: 1,15.</li>
+            <li>Rolamento de esferas (com graxeira a partir da carcaça 225S/M).</li>
+            <li>Rolamento dianteiro de rolos: carcaças 355M/L – 4, 6 e 8 pólos.</li>
+            <li>Sistema de isolamento WISE.</li>
+            <li>Categoria: N.</li>
+            <li>Tensões: 220/380 V, 380/660 V (carcaças 63 a 200L), 220/380/440 V (carcaças 225S/M a 355M/L).</li>
             <li>Apto a operar com inversor de frequência.</li>
-            <li>Cor: Verde Ral 6002;</li> 
+            <li>Cor: Verde Ral 6002.</li> 
             </ul>
         </section>
         <aside class="container-wa">

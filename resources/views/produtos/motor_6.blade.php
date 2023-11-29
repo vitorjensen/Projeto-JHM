@@ -26,22 +26,22 @@
         <section class="container-selection">
             <h2>Característica</h2> <!-- Altera conforme a escolha -->
             <ul>
-        <li>Rendimento Plus – em conformidade com a nova lei de eficiência energética, em vigor desde janeiro de 2010;</li>
-        <li>Grau de proteção: IP55 carcaças 63 a 200M; IP55W a partir da carcaça 225S/M;</li>
-        <li>Potência: 0,16 a 750 cv;</li>
-        <li>Carcaças: 63 a 355A/B;</li>
-        <li>Polaridade: 2, 4, 6 e 8 pólos;</li>
-        <li>Tensão: 220/380/440 V com 12 cabos;</li>
-        <li>Flexibilidade da posição da caixa de ligação acima da carcaça 225S/M (B3D, B3E e B3T);</li>
-        <li>Defletora de chapa carcaças 63 a132M/L</li>
-        <li>Defletora em ferro fundido a partir da carcaça 160M;</li>
-        <li>Grau de vibração A, de acordo com a NBR / IEC 34-14;</li>
-        <li>Sistema de vedação V’ring carcaças 63 a 200M e WSeal® (exclusivo WEG); a partir da carcaça 225S/M;</li>
-        <li>Sistema de isolação WISE® (WEG Insulation System Evolution) – Apto a operar com inversores de freqüência;</li>
-        <li>Classe de isolamento “F” (ΔT 80 K);</li>
-        <li>Dois pontos de aterramento na carcaça;</li>
-        <li>Fator de serviço: 1,15;</li>
-        <li>Plano de pintura: 203A;</li>
+        <li>Rendimento Plus – em conformidade com a nova lei de eficiência energética, em vigor desde janeiro de 2010.</li>
+        <li>Grau de proteção: IP55 carcaças 63 a 200M; IP55W a partir da carcaça 225S/M.</li>
+        <li>Potência: 0,16 a 750 cv.</li>
+        <li>Carcaças: 63 a 355A/B.</li>
+        <li>Polaridade: 2, 4, 6 e 8 pólos.</li>
+        <li>Tensão: 220/380/440 V com 12 cabos.</li>
+        <li>Flexibilidade da posição da caixa de ligação acima da carcaça 225S/M (B3D, B3E e B3T).</li>
+        <li>Defletora de chapa carcaças 63 a132M/L.</li>
+        <li>Defletora em ferro fundido a partir da carcaça 160M.</li>
+        <li>Grau de vibração A, de acordo com a NBR / IEC 34-14.</li>
+        <li>Sistema de vedação V’ring carcaças 63 a 200M e WSeal® (exclusivo WEG); a partir da carcaça 225S/M.</li>
+        <li>Sistema de isolação WISE® (WEG Insulation System Evolution) – Apto a operar com inversores de freqüência.</li>
+        <li>Classe de isolamento “F” (ΔT 80 K).</li>
+        <li>Dois pontos de aterramento na carcaça.</li>
+        <li>Fator de serviço: 1,15.</li>
+        <li>Plano de pintura: 203A.</li>
         <li>Cor: Azul RAL 5009.</li>
             </ul>
         </section>
