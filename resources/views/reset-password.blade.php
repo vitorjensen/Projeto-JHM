@@ -14,7 +14,8 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <img src="{{asset('img/jhm-logo-branco.png')}}" alt="Logo JHM">
+               
+            <a href="/"><img src="{{asset('img/jhm-logo-branco.png')}}" alt="Logo JHM"></a>
             </div>
 
             <div class="nav-list">

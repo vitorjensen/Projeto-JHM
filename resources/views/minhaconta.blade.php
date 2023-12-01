@@ -18,7 +18,7 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <img src="img/jhm-logo-branco.png" alt="Logo JHM">
+                  <a href="/"><img src="img/jhm-logo-branco.png" alt="Logo JHM"></a>
             </div>
 
             <div class="nav-list">
