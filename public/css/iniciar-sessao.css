@@ -134,3 +134,9 @@ button, input[type="submit"]:hover{
 #esqueci-senha a:hover{
     color: black;
 }
+
+.google{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    align-items: center;
+}

@@ -161,7 +161,7 @@
                 <p>Telefone: (19)3026-5555</p>
                 <p>E-mail: jhm@motores.com.br</p>
             </div>
-            <a href="#" id="botao-atendimento"><p>ATENDIMENTO ONLINE</p></a>
+            <a href="https://api.whatsapp.com/send?phone=5519997069245&text=Texto%20aqui" id="botao-atendimento"  target="_blank"><p>ATENDIMENTO ONLINE</p></a>
         </section>
 
         <section id="container-sobre">
