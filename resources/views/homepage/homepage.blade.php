@@ -29,29 +29,33 @@
         <div class="center">
             <div class="item">
                 <div class="desc-motor">
-                    <h2>MOTOR À PROVA DE EXPLOSÃO</h2>
-                    <p>Proteção IP55</p>
+                    <h2>{{_('MOTOR À PROVA DE EXPLOSÃO') }}</h2>
+
+                    <p>{{_('Proteção IP55') }}</p>
                 </div>
                 <img class="img-carrossel-centro" src="img/motores/motor-a-prova-de-explosao.jpg" alt="motor 1">
             </div>
             <div class="item">
                 <div class="desc-motor">
-                    <h2>MOTOR À PROVA DE EXPLOSÃO</h2>
-                    <p>Proteção IP66W</p>
+                    <h2>{{_('MOTOR À PROVA DE EXPLOSÃO') }}</h2>
+
+                    <p>{{_('Proteção IP66W') }}</p>
                 </div>
                 <img class="img-carrossel-centro" src="img/motores/motor-freio-a-prova-de-explosao.jpg" alt="motor 1">
             </div>
             <div class="item">
                 <div class="desc-motor">
-                    <h2>MOTO FREIO</h2>
-                    <p>Redutor tipo 1</p>
+                    <h2>{{_('MOTO FREIO') }}</h2>
+
+                    <p>{{_('Redutor tipo 1') }}</p>
                 </div>
                 <img class="img-carrossel-centro" src="img/motores/motor-freio-redutor-tipo-1.jpg" alt="motor 1">
             </div>
             <div class="item">
                 <div class="desc-motor">
-                    <h2>W22 Premium</h2>
-                    <p>Potência: 0,16 a 750cv</p>
+                    <h2>{{_('W22 Premium') }}</h2>
+                    
+                    <p>{{_('Potência: 0,16 a 750cv') }}</p>
                 </div>
                 <img class="img-carrossel-centro" src="img/motores/w22-premium.jpg" alt="motor 1">
             </div>
@@ -59,12 +63,12 @@
 
         <section id="container-atendimento-online">
             <div class="div-atendimento">
-                <p>Rua João Covolan Filho, 352 - Distrito Industrial</p>
-                <p>Santa Bárbara d'Oeste/SP</p>
+                <p>{{_('Rua João Covolan Filho, 352 - Distrito Industrial') }}</p>
+                <p>{{_('Santa Bárbara d´Oeste/SP') }}</p>
             </div>
             <div class="div-atendimento">
-                <p>Telefone: (19)3026-5555</p>
-                <p>E-mail: jhm@motores.com.br</p>
+                <p>{{_('Telefone: (19)3026-5555') }}</p>
+                <p>{{_('E-mail: jhm@motores.com.br') }}</p>
             </div>
             <a href="https://api.whatsapp.com/send?phone=5519997069245&text=Texto%20aqui" id="botao-atendimento"  target="_blank"><p>ATENDIMENTO ONLINE</p></a>
         </section>
@@ -72,14 +76,17 @@
         <section id="container-sobre">
             <div id="sobre-img">
                 <div id="sobre">
-                    <h2>JHM Motores</h2>
-                    <p>Atendendo a grandes pólos industriais como São Paulo, Campinas, Limeira, Piracicaba, Ribeirão Preto, fixando um público-alvo representado, em sua maioria, por Multinacionais, a JHM possui uma estrutura informal, porém estruturada e flexível, onde cada responsável pela área tem um determinado nível de autonomia para tomar as decisões que julgar necessárias para manter a produção e cumprimento de prazos junto aos clientes.</p>
+                    <h2>{{_('JHM Motores') }}</h2>
+
+                    <p>{{_('Atendendo a grandes pólos industriais como São Paulo, Campinas, Limeira, Piracicaba, Ribeirão Preto, fixando um público-alvo representado, em sua maioria, por Multinacionais, a JHM possui uma estrutura informal, porém estruturada e flexível, 
+                        onde cada responsável pela área tem um determinado nível de autonomia para tomar as decisões que julgar necessárias para manter a produção e cumprimento de prazos junto aos clientes.') }}</p>
                 </div>
                 <img src="img/selo1996.png" alt="desde 1996">
             </div>
             <div id="revenda">
-                <h2>Revenda de Motores</h2>
-                <p>A JHM preza pela excelência no atendimento e qualidade na comercialização de produtos e serviços e disponibiliza aos seus clientes toda a linha de MOTORES INDUSTRIAIS WEG, proporcionado soluções de maneira rápida, confiável e eficaz.</p>
+                <h2>{{_('Revenda de Motores')}}</h2>
+
+                <p>{{_('A JHM preza pela excelência no atendimento e qualidade na comercialização de produtos e serviços e disponibiliza aos seus clientes toda a linha de MOTORES INDUSTRIAIS WEG, proporcionado soluções de maneira rápida, confiável e eficaz.')}}</p>
             </div>
         </section>
 
@@ -89,70 +96,12 @@
             </div>
             <div class="container">
                 <div id="container-titulo">
-                    <h2>Preencha o formulário abaixo e entre em contato conosco.</h2>
+                    <h2>{{_('Preencha o formulário abaixo e entre em contato conosco.') }}</h2>
                 </div>
-                <div id="container-inputs">
-                <form action="{{route('route.contact.store')}}" method="post">
-                @csrf
-                    <p class="form-group">
-                        <label for="iname" class="form-label">Seu nome:</label>
-                        <input type="text" name="name" id="name" value="" class="form-input">
-                    </p>
-                    @error('name')
-                        <div class="invalid-feedback" style="color: red;">
-                        {{$message}}
-                        </div>
-                        <br>
-                        @enderror
-                    <p class="form-group">
-                        <label for="iemail" class="form-label">E-mail:</label>
-                        <input type="email" name="email" id="email" value="" class="form-input" >
-                    </p>
-                    @error('email')
-                        <div class="invalid-feedback" style="color: red;">
-                        {{$message}}
-                        </div>
-                        <br>
-                        @enderror
-                    <p class="form-group">
-                        <label for="iassunto" class="form-label">Assunto:</label>
-                        <input type="text" name="subject" id="subject" class="form-input" >
-                    </p>
-                     @error('subject')
-                        <div class="invalid-feedback" style="color: red;">
-                        {{$message}}
-                        </div>
-                        <br>
-                        @enderror
-                    <p class="form-group">
-                        <label for="imsg" class="form-label">Sua mensagem:</label>
-                        <textarea name="message" id="message" cols="30" rows="10" class="form-input"></textarea>
-                    </p>
-                     @error('message')
-                        <div class="invalid-feedback" style="color: red;">
-                        {{$message}}
-                        </div>
-                        <br>
-                        @enderror
-                    </div>
-                    <script>
-                    @if(Session::has('success'))
 
-                    toastr.success("{{ session('success')}}")
-                    @endif
+                       <x-forms-contato>
 
-                    </script>
-                    <script>
-                    @if(Session::has('error'))
-
-                    toastr.error("{{ session('error')}}")
-                    @endif
-
-                    </script>
-                    <div id="container-buttom">
-                    <a href="#"><input type="submit" value="Enviar"></a>
-                    </div>
-                    </form>
+                </x-forms-contato>
             </div>
         </section>
 
