@@ -73,7 +73,7 @@ class autenticacaoController extends Controller
 
  public function usuario()
  {
-    return view('usuario');
+    return view('usuario.usuario');
  }
 
  public function destroy()

@@ -49,6 +49,7 @@ route::get('w21-carcaca-de-aluminio-montagem',[produtosController::class, 'w21']
 route::get('w21-alto-rendimento-plus',[produtosController::class, 'w21plus'])->name('route.motor_8');
 route::get('w21-motor-trifasico-ip55',[produtosController::class, 'motortrifasico'])->name('route.motor_9');
 route::get('empresa',[EmpresaController::class, 'index'])->name('route.empresa');
+route::get('usuario',[autenticacaoController::class, 'usuario'])->name('route.usuario')->middleware('auth');
 //Fim das Rotas externas
 
 
@@ -61,7 +62,6 @@ route::get('minhaconta',[autenticacaoController::class, 'index'])->name('route.m
 route::post('minhaconta',[autenticacaoController::class, 'store'])->name('route.store');
 route::get('iniciarsessao',[autenticacaoController::class, 'login'])->name('route.iniciarsessao');
 route::post('auth',[autenticacaoController::class, 'auth'])->name('route.login');
-route::get('usuario',[autenticacaoController::class, 'usuario'])->name('route.usuario')->middleware('auth');
 route::get('logout', [autenticacaoController::class, 'destroy'])->name('route.destroy');
 
 
