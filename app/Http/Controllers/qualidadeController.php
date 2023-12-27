@@ -9,6 +9,6 @@ class qualidadeController extends Controller
    public function index()
    {
 
-    return view('qualidade');
+    return view('qualidades.qualidade');
    }
 }

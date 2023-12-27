@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\autenticacaoController;
 use App\Http\Controllers\contatoController;
+use App\Http\Controllers\EmpresaController;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\produtosController;
 use App\Http\Controllers\qualidadeController;
@@ -47,7 +48,7 @@ route::get('w22-plus',[produtosController::class, 'wplus'])->name('route.motor_6
 route::get('w21-carcaca-de-aluminio-montagem',[produtosController::class, 'w21'])->name('route.motor_7');
 route::get('w21-alto-rendimento-plus',[produtosController::class, 'w21plus'])->name('route.motor_8');
 route::get('w21-motor-trifasico-ip55',[produtosController::class, 'motortrifasico'])->name('route.motor_9');
-route::get('empresa',function(){return view('empresa');});
+route::get('empresa',[EmpresaController::class, 'index'])->name('route.empresa');
 //Fim das Rotas externas
 
 
