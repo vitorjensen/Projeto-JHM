@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\autenticacaoController;
 use App\Http\Controllers\contatoController;
+use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\produtosController;
 use App\Http\Controllers\qualidadeController;
 use Illuminate\Support\Facades\Route;
@@ -32,7 +33,7 @@ Route::middleware([
 ]);
 
 //Rotas externas
-Route::get('/', function () {return view('homepage');})->name('route.homepage');
+Route::get('/', [HomepageController::class, 'index'])->name('route.homepage');
 route::get('qualidades',[qualidadeController::class, 'index'])->name('route.qualidade');
 route::get('contato', [contatoController::class, 'index'])->name('route.contato');
 route::post('contato', [contatoController::class, 'store'])->name('route.contact.store');
@@ -49,6 +50,9 @@ route::get('w21-motor-trifasico-ip55',[produtosController::class, 'motortrifasic
 route::get('empresa',function(){return view('empresa');});
 //Fim das Rotas externas
 
+
+
+
 //Rotas de Autenticação
 // Auth::routes(['verify' => true]);
 
@@ -59,12 +63,15 @@ route::post('auth',[autenticacaoController::class, 'auth'])->name('route.login')
 route::get('usuario',[autenticacaoController::class, 'usuario'])->name('route.usuario')->middleware('auth');
 route::get('logout', [autenticacaoController::class, 'destroy'])->name('route.destroy');
 
+
+
+
 //Reset de Password
 Route::get('/forgot-password', function () {
-    return view('esquecisenha');
+return view('esquecisenha');
 })->middleware('guest')->name('password.request');
 
-    Route::post('/forgot-password', function (Request $request) {
+        Route::post('/forgot-password', function (Request $request) {
         $request->validate(['email' => 'required|email'],[
         'required' => 'Campo obrigatório!',
         'email.email' => 'Digite um endereço de Email válido!'
@@ -72,16 +79,16 @@ Route::get('/forgot-password', function () {
 
         $status = Password::sendResetLink(
         $request->only('email')
-    );
- 
-    return $status === Password::RESET_LINK_SENT
+        );
+
+        return $status === Password::RESET_LINK_SENT
         ? back()->with(['status' => __($status)],[
-            'status'=> 'Link de Redefinição de Senha enviado. Verifique seu Email!'
+        'status'=> 'Link de Redefinição de Senha enviado. Verifique seu Email!'
         ])
         : back()->withErrors(['email' => __($status)],[
-            'email'=>'Erro ao tentar redefinir a senha!'
+        'email'=>'Erro ao tentar redefinir a senha!'
         ]);
-    })->middleware('guest')->name('password.email');
+})->middleware('guest')->name('password.email');
 
 
 Route::get('/reset-password/{token}', function (string $token) {
@@ -89,7 +96,7 @@ Route::get('/reset-password/{token}', function (string $token) {
 })->middleware('guest')->name('password.reset');
 
 Route::post('/reset-password', function (Request $request) {
-    $request->validate([
+        $request->validate([
         'token' => 'required',
         'email' => 'required|email',
         'password' => 'required|max:8|min:5|confirmed',
@@ -147,5 +154,6 @@ Route::post('/email/verification-notification', function (Request $request) {
 })->middleware(['auth', 'throttle:6,1'])->name('verification.send');
 
 //Fim
+
 
 //Fim das rotas de autenticação

@@ -1,4 +1,4 @@
-@extends('layouts.index')
+@extends('layouts.produtos_index')
 
 @section('main')
 <main>
