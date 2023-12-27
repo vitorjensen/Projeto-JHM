@@ -1,4 +1,4 @@
-@extends('layouts.contato_index')
+@extends('_layouts.contato_index')
 @section('main')
     <main>
         <div id="imagem-div">

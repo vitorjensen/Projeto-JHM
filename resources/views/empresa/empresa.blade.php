@@ -1,5 +1,5 @@
 
-@extends('layouts.empresa_index')
+@extends('_layouts.empresa_index')
 @section('main')
     <main>
         <section class="container">

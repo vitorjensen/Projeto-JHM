@@ -1,4 +1,4 @@
-@extends('layouts.homepage_index')
+@extends('_layouts.homepage_index')
 @section('main')
 <main>
         <section class="container-principal">

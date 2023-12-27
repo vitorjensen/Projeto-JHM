@@ -1,4 +1,4 @@
-@extends('layouts.qualidades_index')
+@extends('_layouts.qualidades_index')
 @section('main')
     <main>
         <section class="equipamentos-manutencao">

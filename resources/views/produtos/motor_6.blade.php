@@ -1,4 +1,4 @@
-@extends('layouts.produtos_index')
+@extends('_layouts.produtos_index')
 @section('main6')
     <main>
         <section class="container-sobre-motor">
