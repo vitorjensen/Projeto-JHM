@@ -94,7 +94,7 @@ return view('esquecisenha');
 
 Route::get('/reset-password/{token}', function (string $token) {
     return view('reset-password', ['token' => $token]);
-})->middleware('guest')->name('password.reset');
+    })->middleware('guest')->name('password.reset');
 
 Route::post('/reset-password', function (Request $request) {
         $request->validate([
@@ -132,14 +132,14 @@ Route::post('/reset-password', function (Request $request) {
         : back()->withErrors(['email' => [__($status)],[
         'email'=> 'Erro ao alterar a senha!'
         ]]);
-})->middleware('guest')->name('password.update');
+    })->middleware('guest')->name('password.update');
 //Fim
 
 
 //Verificação de Email
 
 Route::get('/email/verify', function () {
-    return view('verify-email');
+        return view('verify-email');
 })->middleware('auth')->name('verification.notice');
 
 Route::get('/email/verify/{id}/{hash}', function (EmailVerificationRequest $request) {
