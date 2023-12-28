@@ -6,10 +6,10 @@
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="empresa" class="nav-link">EMPRESA</a></li>
-                    <li class="nav-item"><a href="{{route('route.qualidade')}}" class="nav-link">QUALIDADES</a></li>
-                    <li class="nav-item"><a href="produtos" class="nav-link">PRODUTOS</a></li>
-                    <li class="nav-item"><a href="{{route('route.contato')}}" class="nav-link">CONTATO</a></li>
+                    <li class="nav-item"><a href="empresa" class="nav-link">{{_('EMPRESA') }}</a></li>
+                    <li class="nav-item"><a href="{{route('route.qualidade')}}" class="nav-link">{{_('QUALIDADES') }}</a></li>
+                    <li class="nav-item"><a href="produtos" class="nav-link">{{_('PRODUTOS') }}</a></li>
+                    <li class="nav-item"><a href="{{route('route.contato')}}" class="nav-link">{{_('CONTATO') }}</a></li>
                 </ul>
             </div>
 
@@ -29,14 +29,14 @@
             <div class="dropdown-content">
             <h5 class="dropdown-item dropdown-footer">
           <a href="#" class="dropdown-item dropdown-footer">
-          <i class="fa fa-gear" style="font-size:18px"></i> {{ __('Perfil') }}</a>
+          <i class="fa fa-gear" style="font-size:18px"></i> {{_('Perfil') }}</a>
           </a>
           </h5>
         
           <br>
           <h5 class="dropdown-item dropdown-footer">
           <a href="{{route('route.destroy')}}" class="dropdown-item dropdown-footer">
-          <i class="fa fa-sign-out" style="font-size:18px"></i> {{ __('Sair') }}</a>
+          <i class="fa fa-sign-out" style="font-size:18px"></i> {{_('Sair') }}</a>
           </a>
           </h5>
          </div>
@@ -51,10 +51,10 @@
             </div>
             
             <ul>
-                <li class="nav-item"><a href="empresa" class="nav-link">EMPRESA</a></li>
-                <li class="nav-item"><a href="qualidades" class="nav-link">QUALIDADES</a></li>
-                <li class="nav-item"><a href="produtos" class="nav-link">PRODUTOS</a></li>
-                <li class="nav-item"><a href="contato" class="nav-link">CONTATO</a></li>
+                <li class="nav-item"><a href="empresa" class="nav-link">{{_('EMPRESA') }}</a></li>
+                <li class="nav-item"><a href="qualidades" class="nav-link">{{_('QUALIDADES') }}</a></li>
+                <li class="nav-item"><a href="produtos" class="nav-link">{{_('PRODUTOS') }}</a></li>
+                <li class="nav-item"><a href="contato" class="nav-link">{{_('CONTATO') }}</a></li>
             </ul>
         </div>
     </header>

@@ -34,9 +34,9 @@
     </x-header>
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>QUALIDADES</h1>
+            <h1>{{_('QUALIDADES') }}</h1>
             <hr>
-            <p>Veja a qualidade de serviço da JHM</p>
+            <p>{{_('Veja a qualidade de serviço da JHM') }}</p>
         </div>
         <div class="secao-linha-azul">
             <hr>

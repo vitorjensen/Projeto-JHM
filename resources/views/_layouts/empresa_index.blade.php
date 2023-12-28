@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="img/jhm-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/empresa.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>JHM | EMPRESA</title>
+    <title>{{_('JHM | EMPRESA') }}</title>
 </head>
 <style>
 .dropdown {
@@ -38,7 +38,7 @@
         <div class="secao-linha-branca">
             <h1>EMPRESA</h1>
             <hr>
-            <p>Qualidade e Excelência em Serviços</p>
+            <p>{{_('Qualidade e Excelência em Serviços') }}</p>
         </div>
         <div class="secao-linha-azul">
             <hr>

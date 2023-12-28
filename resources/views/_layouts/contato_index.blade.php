@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>JHM | CONTATO</title>
+    <title>{{_('JHM | CONTATO') }}</title>
 </head>
 <style>
 .dropdown {
@@ -39,9 +39,9 @@
 
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>CONTATO</h1>
+            <h1>{{_('CONTATO') }}</h1>
             <hr>
-            <p>Fale com a JHM Motores!</p>
+            <p>{{_('Fale com a JHM Motores!') }}</p>
         </div>
         <div class="secao-linha-azul">
             <hr>

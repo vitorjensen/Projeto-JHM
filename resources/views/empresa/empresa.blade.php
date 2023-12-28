@@ -5,10 +5,10 @@
         <section class="container">
             <div class="txt-img">
                 <div class="txt1">
-                    <h2>Prezando pela qualidade e excelência em todos os serviços realizados.</h2>
-                    <p>Fundada em novembro 1996, a JHM Motores Elétricos, conta com instalações próprias, com sede no município de Santa Bárbara d´Oeste – Estado de São Paulo.</p>
-                    <p>A JHM Motores Elétricos preza pela qualidade e excelência em todos os serviços realizados, e mantém uma equipe técnica qualificada e com experiência composta por engenheiros mecânicos, técnicos mecânicos, técnicos eletrônicos, eletricistas de manutenção, torneiros, todos diplomados pelo SENAI (Serviço Nacional de Aprendizagem Industrial), cursos de qualificação profissional e universidades.</p>
-                    <p>Especializada em Manutenção de motores elétricos de uso industrial, em 1999 foi homologada pela WEG como Assistente Técnico Autorizado “5 Estrelas”. No ano seguinte, conquistou a bandeira Cestari, comoRepresentante Autorizado para vendas e assistência técnica.</p>
+                    <h2>{{_('Prezando pela qualidade e excelência em todos os serviços realizados.') }}</h2>
+                    <p>{{_('Fundada em novembro 1996, a JHM Motores Elétricos, conta com instalações próprias, com sede no município de Santa Bárbara d´Oeste – Estado de São Paulo.') }}</p>
+                    <p>{{_('A JHM Motores Elétricos preza pela qualidade e excelência em todos os serviços realizados, e mantém uma equipe técnica qualificada e com experiência composta por engenheiros mecânicos, técnicos mecânicos, técnicos eletrônicos, eletricistas de manutenção, torneiros, todos diplomados pelo SENAI (Serviço Nacional de Aprendizagem Industrial), cursos de qualificação profissional e universidades.') }}</p>
+                    <p>{{_('Especializada em Manutenção de motores elétricos de uso industrial, em 1999 foi homologada pela WEG como Assistente Técnico Autorizado “5 Estrelas”. No ano seguinte, conquistou a bandeira Cestari, comoRepresentante Autorizado para vendas e assistência técnica.') }}</p>
                 </div>
 
                 <div class="img">
@@ -16,11 +16,11 @@
                 </div>
             </div>
             <div class="txt2">
-                <p>Atendendo a grandes pólos industriais como São Paulo, Campinas, Limeira, Piracicaba, Ribeirão Preto, fixando um público-alvo representado, em sua maioria, por Multinacionais, a JHM possui uma estrutura informal, porém estruturada e flexível, onde cada responsável pela área tem um determinado nível de autonomia para tomar as decisões que julgar necessárias para manter a produção e cumprimento de prazos junto aos clientes.</p>
-                <p>A administração é centralizada, ficando a cargo dos sócios as decisões quanto ao gerenciamento da empresa. Contudo, o organograma bem estruturado da empresa, permite uma divisão de tarefas de maneira racional.</p>
-                <p>O processo produtivo é flexível e sempre respeitando os procedimentos internos ou normas para cada etapa do trabalho realizado, afim de mantermos a excelência dos produtos e serviços.</p>
-                <p>Os cargos são ocupados por especialistas, com atribuições de suas áreas de competências e responsabilidades perfeitamente definidas (usinagem, montagem, rebobinamento) e com tomadas de decisões relativamente descentralizadas e delegadas a níveis inferiores. Para cada setor, o trabalho é feito por unidade, onde os colaboradores utilizam de uma variedade de instrumentos e ferramentas para desempenho de suas atividades com a qualidade exigida.</p>
-                <p>Para qualificar os serviços oferecidos, a equipe técnica da JHM Motores Elétricos utiliza equipamentos e aparelhos sofisticados para testes e diagnósticos. Por isso, acompanhar a evolução tecnológica é, com certeza, uma estratégia inerente à empresa, assegurando a sobrevivência e eficácia da JHM.</p>
+                <p>{{_('Atendendo a grandes pólos industriais como São Paulo, Campinas, Limeira, Piracicaba, Ribeirão Preto, fixando um público-alvo representado, em sua maioria, por Multinacionais, a JHM possui uma estrutura informal, porém estruturada e flexível, onde cada responsável pela área tem um determinado nível de autonomia para tomar as decisões que julgar necessárias para manter a produção e cumprimento de prazos junto aos clientes.') }}</p>
+                <p>{{_('A administração é centralizada, ficando a cargo dos sócios as decisões quanto ao gerenciamento da empresa. Contudo, o organograma bem estruturado da empresa, permite uma divisão de tarefas de maneira racional.') }}</p>
+                <p>{{_('O processo produtivo é flexível e sempre respeitando os procedimentos internos ou normas para cada etapa do trabalho realizado, afim de mantermos a excelência dos produtos e serviços.') }}</p>
+                <p>{{_('Os cargos são ocupados por especialistas, com atribuições de suas áreas de competências e responsabilidades perfeitamente definidas (usinagem, montagem, rebobinamento) e com tomadas de decisões relativamente descentralizadas e delegadas a níveis inferiores. Para cada setor, o trabalho é feito por unidade, onde os colaboradores utilizam de uma variedade de instrumentos e ferramentas para desempenho de suas atividades com a qualidade exigida.') }}</p>
+                <p>{{_('Para qualificar os serviços oferecidos, a equipe técnica da JHM Motores Elétricos utiliza equipamentos e aparelhos sofisticados para testes e diagnósticos. Por isso, acompanhar a evolução tecnológica é, com certeza, uma estratégia inerente à empresa, assegurando a sobrevivência e eficácia da JHM.') }}</p>
             </div>
         </section>
 

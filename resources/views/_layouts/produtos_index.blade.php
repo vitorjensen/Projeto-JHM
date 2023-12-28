@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/5ff722f86b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/motor.css">
-    <title>JHM | PRODUTOS</title>
+    <title>{{_('JHM | PRODUTOS') }}</title>
 </head>
 <style>
 .dropdown {
@@ -39,9 +39,9 @@
     
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>PRODUTOS</h1>
+            <h1>{{_('PRODUTOS') }}</h1>
             <hr>
-            <p>Motores elétricos</p>
+            <p>{{_('Motores elétricos') }}</p>
         </div>
         <div class="secao-linha-azul">
             <hr>

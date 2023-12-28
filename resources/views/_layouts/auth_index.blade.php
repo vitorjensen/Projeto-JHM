@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     
-    <title>JHM | MINHA CONTA</title>
+    <title>{{_('JHM | MINHA CONTA') }}</title>
 </head>
 <style>
 .dropdown {
@@ -44,9 +44,9 @@
     
     <section class="secao-head-pagina">
         <div class="secao-linha-branca">
-            <h1>MINHA CONTA</h1>
+            <h1>{{_('MINHA CONTA') }}</h1>
             <hr>
-            <p>Crie ou entre em sua conta JHM!</p>
+            <p>{{_('Crie ou entre em sua conta JHM!') }}</p>
         </div>
         <div class="secao-linha-azul">
             <hr>
